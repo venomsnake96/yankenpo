@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styless.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styless.css" />
     <title>Yankenpo</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <h1>Yankenpo</h1>
+    <div id="opciones_juagdor">
+        <h2>Elige una opción: </h2>
+      <button class="option" data-option="pierdra">Piedra</button>
+      <button class="option" data-option="papel">Papel</button>
+      <button class="option" data-option="tijeras">Tijeras</button>
+    </div>
+
+    <div id="resultado">
+        <h3>Resultado:</h3>
+        <p id="mensaje"></p>
+    </div>
     <script src="./scrip.js"></script>
-</body>
+  </body>
 </html>
