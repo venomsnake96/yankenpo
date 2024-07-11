@@ -40,7 +40,14 @@ body{
     background: #991722;
 }
 
-.resultado{
-    margin: 10px;
-    background: #333232;
+.resultado {
+    background-color: #575353;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mensaje {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
 }
